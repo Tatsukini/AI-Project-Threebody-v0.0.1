@@ -1,0 +1,27 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- frontend ----
+node_modules/
+
+# ---- native module build output ----
+backend/cpp/build/
+backend/rust/target/
+backend/java/target/
+backend/csharp/obj/
+backend/csharp/bin/
+
+# ---- editors / OS ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- local scratch ----
+*.log
